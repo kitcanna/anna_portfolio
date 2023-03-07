@@ -10,8 +10,11 @@ import {
     nodejs,
     mongodb,
     git,   
+    github,
+    butch,
+    mauinspark,
     python, java, sql, cplus, dax, matlab,
-    cgi, wharton, google, psm, tetrapak, mau, president,
+    cgi, wharton, google, psm, tetrapak, mau, president, linkedin,
     carrent,
     jobit,
     tripguide,
@@ -231,62 +234,75 @@ import {
         "A year long extracurricular project ending in 5 weeks of grandiose activities and events for all of the university’s new students (approx. 2000 students), led by volunteering older students, with the purpose of helping them finding friends and their place within the university. I was the manager of all aspects of project‑, budget‑ and coordination management, and developer of all marketing and front‑end solutions.",
       tags: [
         {
-          name: "react",
+          name: "backend/frontend",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "project management and diplomacy",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "proactive approaches",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: mauinspark,
+      source_code_link: "https://drive.google.com/file/d/1iV1gzhl3b_GnB0py7l4OZ4G8djZCyax6/view?usp=sharing",
     },
     {
       name: "Project Butch",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Project BUTCH is an interactive game with insipiration from the red-light-green-light game from 'Squid Game'. In this case, the user needs to grab a piece of candy from a sensor before BUTCH turns around and catches you move. This game was developed with agile development.",
       tags: [
         {
-          name: "react",
+          name: "producer",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "react",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
+        
       ],
-      image: jobit,
+      image: butch,
       source_code_link: "https://github.com/WHAAM-Group2",
     },
     {
       name: "Java Socket Application",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A dark themed, chat application for multiple users. Text/pictures can both be sent to individuals or groups. Data is logged. Program was developed using java sockets.",
       tags: [
         {
-          name: "nextjs",
+          name: "java",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
+      image: mau,
       source_code_link: "https://github.com/waelsucks/java-chat-application",
+    },
+    {
+      name: "Github",
+      description:
+        "Link to my Github profile to see more projects and lab work.",
+      tags: [
+
+      ],
+      image: github,
+      source_code_link: "https://github.com/kitcanna",
+    },
+    {
+      name: "LinkedIn",
+      description:
+        "Link to my LinkedIn profile to see more about my me and my career.",
+      tags: [
+
+      ],
+      image: linkedin,
+      source_code_link: "https://www.linkedin.com/in/anna-selstam/",
     },
   ];
   
