@@ -11,7 +11,7 @@ import {
     mongodb,
     git,   
     python, java, sql, cplus, dax, matlab,
-    cgi, wharton, google, psm, tetrapak, mau,
+    cgi, wharton, google, psm, tetrapak, mau, president,
     carrent,
     jobit,
     tripguide,
@@ -141,26 +141,6 @@ import {
       ],
     },
     {
-      title: "Professional Scrum Master Certification (PSM I)",
-      company_name: "Scrum.org",
-      icon: psm,
-      iconBg: "#383E56",
-      date: "Jul 2022",
-      points: [
-        "",
-      ],
-    },
-    {
-      title: "Google Data Analytics Professional Certificate",
-      company_name: "Google via Coursera",
-      icon: google,
-      iconBg: "#383E56",
-      date: "Jul 2022",
-      points: [
-        "",
-      ],
-    },
-    {
       title: "Student Talent Programme Consultant",
       company_name: "Tetra Pak (via Adecco)",
       icon: tetrapak,
@@ -169,16 +149,6 @@ import {
       points: [
         "I spearheaded a digitization, visualization, and automation project for production management worldwide.",
         "My aim was to develop a tool to streamline workflows and provide valuable insights through facilitating data‑driven decision‑making and enhancing a cross‑functional team’s productivity and efficiency on a intercontinental scale."
-      ],
-    },
-    {
-      title: "Google Project Management Professional Certificate",
-      company_name: "Google via Coursera",
-      icon: google,
-      iconBg: "#383E56",
-      date: "Feb 2022",
-      points: [
-        "",
       ],
     },
     {
@@ -197,7 +167,7 @@ import {
     {
       title: "President/Chairman of the Board",
       company_name: "BRF Borgmästaregården 1 i Lund (Housing cooperative/tenant‑owners’ society) ",
-      icon: "",
+      icon: president,
       iconBg: "#E6DEDD",
       date: "Apr 2019 - Present",
       points: [
@@ -209,7 +179,7 @@ import {
     {
       title: "Restaurant‑, Café‑ and Event Manager",
       company_name: "Stamstället, Café LUX, Moroten och Piskan",
-      icon: "",
+      icon: president,
       iconBg: "#E6DEDD",
       date: "Nov 2015 ‑ Jun 2021",
       points: [
@@ -224,25 +194,33 @@ import {
       testimonial:
         "Business Analytics Specialization",
       name: "The Wharton School of the University of Pennsylvania",
-      designation: "Wharton",
-      company: "Badge:",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      company: "Feb 2023",
+      image: wharton,
+      source_code_link: "https://coursera.org/share/92e524ead68e63c7bc3a7f40e7f29829",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Professional Scrum Master Certification (PSM I)",
+      name: "Scrum.org",
+      company: "Jul 2022",
+      image: psm,
+      source_code_link: "https://www.credly.com/badges/0c8009c7-ba0b-46af-b0d4-8920e2ee26bf?source=linked_in_profile",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Google Data Analytics Professional Certificate",
+      name: "Google via Coursera",
+      company: "Jul 2022",
+      image: google,
+      source_code_link: "https://www.credly.com/badges/10604b56-9e97-4a19-8485-c235cfe12430/public_url",
+    },
+    {
+      testimonial:
+        "Google Project Management Professional Certificate",
+      name: "Google via Coursera",
+      company: "Feb 2022",
+      image: google,
+      source_code_link: "https://www.credly.com/badges/3bd66f39-a41f-42cf-b10b-b146499a4f5d?source=linked_in_profile",
     },
   ];
   
@@ -269,7 +247,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Project Butch",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -287,10 +265,10 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/WHAAM-Group2",
     },
     {
-      name: "Trip Guide",
+      name: "Java Socket Application",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -308,7 +286,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/waelsucks/java-chat-application",
     },
   ];
   

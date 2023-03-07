@@ -10,10 +10,11 @@ const FeedbackCard = ({
   index,
   testimonial,
   name,
-  designation,
+  source_code_link,
   company,
   image,
 }) => (
+  
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
@@ -27,10 +28,9 @@ const FeedbackCard = ({
             <span className='blue-text-gradient'>@</span> {name}
           </p>
           <p className='mt-1 text-secondary text-[12px]'>
-            {designation} of {company}
-          </p>
+            {company} | <button onClick={() => window.open(source_code_link,"_blank")}> See badge</button>
+          </p> 
         </div>
-
         <img
           src={image}
           alt={`feedback_by-${name}`}
@@ -41,7 +41,7 @@ const FeedbackCard = ({
   </motion.div>
 );
 
-const Feedbacks = () => {
+const Feedbacks = () => {  
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div

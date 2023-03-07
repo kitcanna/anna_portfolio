@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import logo2 from "./logo2.svg";
+
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -28,6 +30,7 @@ import google from "./company/google.png";
 import psm from "./company/psm.png";
 import tetrapak from "./company/tetrapak.png";
 import mau from "./company/mau.png";
+import president from "./company/president.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -35,6 +38,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  logo2,
   backend,
   creator,
   mobile,
@@ -48,13 +52,11 @@ export {
   nodejs,
   reactjs,
   python, java, sql, cplus, dax, matlab,
-  cgi, wharton, google, psm, tetrapak, mau,
+  cgi, wharton, google, psm, tetrapak, mau, president,
   tailwind,
   typescript,
   threejs,
   carrent,
   jobit,
   tripguide,
-
-
 };
