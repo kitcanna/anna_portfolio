@@ -271,7 +271,7 @@ import {
     {
       name: "Java Socket Application",
       description:
-        "A dark themed, chat application for multiple users. Text/pictures can be sent to both individuals or groups. Data is logged. Program was developed using java sockets.",
+        "A dark themed, chat application for multiple users. Text/pictures can be sent to both individuals or in groups. Data is logged. Program was developed using java sockets.",
       tags: [
         {
           name: "developer",
