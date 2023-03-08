@@ -15,9 +15,6 @@ import {
     mauinspark,
     python, java, sql, cplus, dax, matlab,
     cgi, wharton, google, psm, tetrapak, mau, president, linkedin,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
   } from "../assets";
   
@@ -164,7 +161,8 @@ import {
         "CGPA: 3.92/4.00",
         "Awarded two scholarships for 2021; one for good academic results and one for exceptional dedication at my faculty.",
         "Student representative since 2021.",
-        "Project Leader for Malmö University Introduction Committee from 2021‑2022."
+        "Project Leader for Malmö University Introduction Committee from 2021‑2022.",
+        "Extracurricular courses in Database Technology, Application Development for Android and Project Management with Applied IT"
       ],
     },
     {
@@ -234,15 +232,15 @@ import {
         "A year long extracurricular project ending in 5 weeks of grandiose activities and events for all of the university’s new students (approx. 2000 students), led by volunteering older students, with the purpose of helping them finding friends and their place within the university. I was the manager of all aspects of project‑, budget‑ and coordination management, and developer of all marketing and front‑end solutions.",
       tags: [
         {
-          name: "backend/frontend",
+          name: "project management and diplomacy",
           color: "blue-text-gradient",
         },
         {
-          name: "project management and diplomacy",
+          name: "proactive approaches",
           color: "green-text-gradient",
         },
         {
-          name: "proactive approaches",
+          name: "backend/frontend",
           color: "pink-text-gradient",
         },
       ],
@@ -252,21 +250,20 @@ import {
     {
       name: "Project Butch",
       description:
-        "Project BUTCH is an interactive game with insipiration from the red-light-green-light game from 'Squid Game'. In this case, the user needs to grab a piece of candy from a sensor before BUTCH turns around and catches you move. This game was developed with agile development.",
+        "Project BUTCH is an interactive game with insipiration from the red-light-green-light game from 'Squid Game'. In this case, the user needs to grab a piece of candy from a sensor before BUTCH turns around and catches you move (webcamera with an AI to catch movement). This game was developed with agile development.",
       tags: [
         {
           name: "producer",
           color: "blue-text-gradient",
         },
         {
-          name: "react",
+          name: "multiple programming languages",
           color: "green-text-gradient",
         },
         {
           name: "MongoDB",
           color: "pink-text-gradient",
         },
-        
       ],
       image: butch,
       source_code_link: "https://github.com/WHAAM-Group2",
@@ -274,10 +271,14 @@ import {
     {
       name: "Java Socket Application",
       description:
-        "A dark themed, chat application for multiple users. Text/pictures can both be sent to individuals or groups. Data is logged. Program was developed using java sockets.",
+        "A dark themed, chat application for multiple users. Text/pictures can be sent to both individuals or groups. Data is logged. Program was developed using java sockets.",
       tags: [
         {
-          name: "java",
+          name: "developer",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "java-sockets",
           color: "blue-text-gradient",
         },
       ],

@@ -33,15 +33,11 @@ import mau from "./company/mau.png";
 import president from "./company/president.png";
 
 import butch from "./butch.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import linkedin from "./linkedin.png";
 import mauinspark from "./mauinspark.png";
 
 export {
-  logo,
-  logo2,
+  logo,logo2,
   backend,
   creator,
   mobile,
@@ -54,15 +50,12 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  tailwind,
+  typescript,
+  threejs,
   butch,
   linkedin,
   mauinspark,
   python, java, sql, cplus, dax, matlab,
   cgi, wharton, google, psm, tetrapak, mau, president,
-  tailwind,
-  typescript,
-  threejs,
-  carrent,
-  jobit,
-  tripguide,
 };
