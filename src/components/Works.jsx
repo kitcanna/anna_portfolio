@@ -82,7 +82,7 @@ const Works = () => {
         >
           Following projects showcases some of my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories, if there is one. They all reflect my
+          links to code repositories/documentation, if there is one. They all reflect my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </motion.p>
